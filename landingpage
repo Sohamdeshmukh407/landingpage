@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soham Animators</title>
+  <style>
+    /* Basic CSS for layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      padding: 10px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 20px;
+    }
+    section {
+      padding: 100px 0;
+      text-align: center;
+    }
+    section h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    section p {
+      color: #555;
+    }
+    /* Different section colors */
+    #anime-menu {
+      background-color: #ff9999;
+    }
+    #search-option {
+      background-color: #66ccff;
+    }
+    #products {
+      background-color: #ffcc66;
+    }
+    #contact {
+      background-color: #b3ffb3;
+    }
+    #collaboration {
+      background-color: #ff99ff;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Soham Animators</h1>
+    <p>Your destination for anime creation and more</p>
+  </header>
+  <nav>
+    <a href="#anime-menu">Anime Menu</a>
+    <a href="#search-option">Search</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+    <a href="#collaboration">Collaboration</a>
+  </nav>
+  
+  <section id="anime-menu">
+    <h2>Anime Menu</h2>
+    <p>Explore a world of animated creations.</p>
+  </section>
+  
+  <section id="search-option">
+    <h2>Search Option</h2>
+    <p>Find your favorite anime and more.</p>
+  </section>
+  
+  <section id="products">
+    <h2>Products</h2>
+    <p>Discover our latest animated products.</p>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Reach out to us for inquiries.</p>
+  </section>
+  
+  <section id="collaboration">
+    <h2>Collaboration</h2>
+    <p>Let's work together to create something amazing.</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Soham Animators. All rights reserved.</p>
+  </footer>
+</body>
+</html>
